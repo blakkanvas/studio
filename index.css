@@ -47,8 +47,9 @@ h5,
 p,
 figure,
 picture {
+    font-weight: 400;
     margin: 0;
-}
+}  
 /* set up the body */
 body {
   font-family: var(--ff-sans-normal);
