@@ -1,0 +1,49 @@
+/* navigation */
+
+  a:active a:visited{
+    text-decoration: underline;
+  }
+
+
+/* h1 wrapper */
+.h1-wrapper {
+  width: 950px;
+  height: auto;
+  margin: 200px 0 20px 0;
+  padding: 0 200px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* utilities */
+
+/* Animate content */
+.zoom-anim-header {
+  transition-timing-function: ease;
+  transition: transform .9s; /* Animation */
+}
+
+.zoom-anim-header:hover {
+
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoom-anim {
+  transition-timing-function: ease;
+  transition: transform .9s; /* Animation */
+}
+
+.zoom-anim:hover {
+
+  transform: scale(1.02); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+/* end Animate content */
