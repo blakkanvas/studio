@@ -4,6 +4,53 @@
     text-decoration: underline;
   }
 
+  #nav {
+      transition: opacity 0.25s;
+
+  }
+
+  .navbar-fixed {
+      background-color: white;
+      opacity: 0.75;
+
+  }
+
+  .navbar-trans {
+      opacity: 1;
+  }
+
+.navbar-toggler {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  transition: .5s ease-in-out;
+  }
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline : none;
+  box-shadow: none;
+  border: none;
+  }
+
+.navbar-toggler span {
+  margin: 0;
+  padding: 0;
+}
+.toggler-icon {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #00000;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
 
 /* h1 wrapper */
 .h1-wrapper {
